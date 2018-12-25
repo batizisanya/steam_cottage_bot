@@ -1,0 +1,21 @@
+{
+  "name": "steam-cottage-event-bot",
+  "version": "1.0.0",
+  "description": "Auto farm cottage event on multi account",
+  "main": "cottage.js",
+  "author": "Batizi Sándor",
+  "scripts": {
+    "start": "node cottage.js"
+  },
+  "dependencies": {
+    "steam-user": "*",
+    "steamcommunity": "*",
+    "steam-totp": "*",
+    "steam-tradeoffer-manager": "*",
+    "fs": "*",
+	"cheerio": "*",
+    "request": "*",
+    "steam": "^1.4.0",
+    "steam-weblogon": "*"
+  }
+}
